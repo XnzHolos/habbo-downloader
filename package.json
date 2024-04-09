@@ -31,9 +31,9 @@
     "fast",
     "performance"
   ],
-  "homepage": "https://github.com/higoka/habbo-downloader",
+  "homepage": "https://github.com/XnzHolos/habbo-downloader",
   "bugs": {
-    "url": "https://github.com/higoka/habbo-downloader/issues"
+    "url": "https://github.com/XnzHolos/habbo-downloader/issues"
   },
   "license": "MIT",
   "author": "Nico Rickenbach",
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/higoka/habbo-downloader.git"
+    "url": "https://github.com/XnzHolos/habbo-downloader.git"
   },
   "dependencies": {
     "compare-versions": "^3.6.0",
