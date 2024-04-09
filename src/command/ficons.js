@@ -14,12 +14,12 @@ async function parse (json) {
 }
 
 async function handle () {
-  const json = await fetchJson(`https://www.habbo.${config.domain}/gamedata/furnidata_json/0`)
+  const json = await fetchJson(`http://habbstar.eu/nitro-assets/gamedata/FurnitureData.json`)
   const all = await parse(json)
 
   await fetchMany([...all].map((item) => {
     return {
-      src: `https://images.habbo.com/dcr/hof_furni/${item.revision}/${item.name}`,
+      src: `http://habbstar.eu/swf/dcr/hof_furni/icons/${item.revision}/${item.name}`,
       dst: (config.revision)
         ? `dcr/hof_furni/${item.revision}/${item.name}`
         : `dcr/hof_furni/${item.name}`
